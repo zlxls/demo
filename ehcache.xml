@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <!-- 默认的磁盘缓存目录 -->
+    <diskStore path="java.io.tmpdir/FL"/>
+    
+    <!-- 默认缓存策略 -->
+    <defaultCache
+        maxElementsInMemory="10000" eternal="false" overflowToDisk="true" timeToIdleSeconds="120" timeToLiveSeconds="120" /> 
+    <cache name="/admin"            maxElementsInMemory="50000" eternal="true" overflowToDisk="true"/>  
+    <cache name="/base"             maxElementsInMemory="50000" eternal="true" overflowToDisk="true"/>  
+    <cache name="/city"             maxElementsInMemory="50000" eternal="true" overflowToDisk="true"/>  
+    <cache name="/custom"           maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />  
+    <cache name="/dictionary"       maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />
+    <cache name="/empty"            maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />  
+    <cache name="/log"              maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />
+    <cache name="/message"          maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />
+    <!--<cache name="/message_send"     maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />-->
+    <cache name="/method"           maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />
+    <cache name="/mianyi"           maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />
+    <cache name="/module"           maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />
+    <cache name="/nation"           maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />
+    <cache name="/place"            maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />  
+    <cache name="/role"             maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <!--<cache name="/role_base"        maxElementsInMemory="50000" eternal="true" overflowToDisk="true" />--> 
+    <cache name="/shenpi"           maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+<!--    <cache name="/table_bingzoon"   maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="/table_chuanbo"    maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="/table_come"       maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="/table_comezoon"   maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="/table_countryzoon"maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="/table_zdzoon"     maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="/table_zoon"       maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> -->
+    <cache name="/tables"           maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="/yimiao"           maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="/yimiaoin"         maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="/yimiaoout"        maxElementsInMemory="50000" eternal="true" overflowToDisk="true" /> 
+    <cache name="common"            maxElementsInMemory="50000" eternal="true" overflowToDisk="true"/>     
+             
+    
+    
+    
+</ehcache>

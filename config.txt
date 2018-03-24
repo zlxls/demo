@@ -1,0 +1,22 @@
+#jdbcUrl = jdbc:mysql://127.0.0.1:3306/fangyi?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+jdbcUrl = jdbc:mysql://211.149.230.238:3306/fangyi?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = kmdinghua
+password =dh121314
+devMode = true
+
+static_url=http://localhost:8080
+image_upload_url = /FL/kindeditor/image_upload_json.jsp
+upload_url = /FL/kindeditor/upload_json.jsp
+file_manager_json_url = /FL/kindeditor/file_manager_json.jsp
+
+#通知验证短信
+sms_url=http://118.178.188.81/msg/HttpSendSM
+sms_title=防疫管家
+
+#Jpush
+jpush_appkey=cc271e89bf7552632bd09b3f
+jpush_appSecret=81e772203348442b8d9b9ecf
+
+#疫苗类型
+#如有新的，往后新增，不可修改之前的序号，可修改名称
+yimiao_type=1_猪-猪瘟,2_猪-口蹄疫,3_猪-蓝耳病,4_牛-口蹄疫,5_羊-小反刍,6_羊-口蹄疫,7_狂犬疫苗,8_禽-禽流感,9_禽-新城疫
